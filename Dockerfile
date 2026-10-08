@@ -16,4 +16,4 @@ EXPOSE 5090
 RUN useradd -m appuser
 USER appuser
 
-CMD [ "node", "start" ]
+CMD [ "node", "run", "start" ]
